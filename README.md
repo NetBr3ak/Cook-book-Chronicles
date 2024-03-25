@@ -1,29 +1,29 @@
-# Simple Recipes Website
+# Simple Recipes Website 🍲
 
 This project is a basic HTML recipes website showcasing various dishes.
 
-## Table of Contents
+## Table of Contents 📜
 
 - [Introduction](#introduction)
 - [Features](#features)
 - [Usage](#usage)
 - [License](#license)
 
-## Introduction
+## Introduction 📝
 
 This repository contains a simple HTML recipes website.
 
-## Features
+## Features ✨
 
 - Home page with links to different recipes
 - Separate pages for each recipe with ingredients and instructions
 
-## Usage
+## Usage 🚀
 
-1. Clone the repository: `git clone https://github.com/yourusername/recipes-website.git`
-2. Navigate to the project directory
-3. Open `index.html` in your preferred web browser
+1. Clone the repository: `https://github.com/T3aC0d3/recipes.git`
+2. Navigate to the project directory.
+3. Open `index.html` in your preferred web browser.
 
-## License
+## License 📄
 
 This project is licensed under the [MIT License](LICENSE).
