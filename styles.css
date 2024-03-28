@@ -1,0 +1,46 @@
+body {
+    background-color: #1a1a1d;
+    color: #ffffff;
+    font-family: 'Tahoma', sans-serif;
+    text-align: center;
+    /* Połączono kolor tekstu dla wszystkich elementów w jednym miejscu */
+}
+
+h1 {
+    font-size: 36px;
+    /* Zmniejszenie rozmiaru czcionki */
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #1a1a1d;
+    border: 1px solid #950740;
+    border-radius: 1000px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 20px;
+    /* Dodanie odstępu na górze dla linków */
+}
+
+a:hover {
+    background-color: #950740;
+}
+
+img {
+    margin-top: 20px;
+    /* Dodanie odstępu na górze dla obrazu */
+    border-radius: 10px;
+    /* Zaokrąglenie krawędzi obrazu */
+}
