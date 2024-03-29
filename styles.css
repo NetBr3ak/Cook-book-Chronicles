@@ -5,6 +5,12 @@ body {
     text-align: center;
     padding: 20px;
     line-height: 1.6;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+body.loaded {
+    opacity: 1;
 }
 
 h1 {
@@ -23,7 +29,6 @@ a {
     font-weight: bold;
     color: #ffffff;
     margin-top: 20px;
-    /* Dodanie odstępu na górze dla linków */
 }
 
 a:hover {
@@ -81,17 +86,11 @@ footer {
     padding: 10px 0;
 }
 
-footer p {
-    margin: 0;
-}
-
 footer a {
     color: #f4f4f4;
     text-decoration: none;
     font-weight: bold;
     font-size: 12px;
     display: inline;
-    /* lub display: inline-block; */
     margin-left: 5px;
-    /* opcjonalnie: aby dodać odstęp między tekstem a linkiem */
 }
