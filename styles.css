@@ -1,23 +1,15 @@
 body {
     background-color: #1a1a1d;
-    color: #ffffff;
+    color: #f4f4f4;
     font-family: 'Tahoma', sans-serif;
     text-align: center;
-    /* Połączono kolor tekstu dla wszystkich elementów w jednym miejscu */
+    padding: 20px;
+    line-height: 1.6;
 }
 
 h1 {
     font-size: 36px;
-    /* Zmniejszenie rozmiaru czcionki */
-}
-
-ol {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    margin: 10px 0;
+    margin-top: 0;
 }
 
 a {
@@ -38,9 +30,68 @@ a:hover {
     background-color: #950740;
 }
 
-img {
-    margin-top: 20px;
-    /* Dodanie odstępu na górze dla obrazu */
+.container {
+    margin: auto;
+    max-width: 800px;
+    padding: 0 20px;
+    margin-top: 25px;
+}
+
+.border-red {
+    border: 2px solid #950740;
     border-radius: 10px;
-    /* Zaokrąglenie krawędzi obrazu */
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+h2 {
+    font-size: 36px;
+    margin-top: 30px;
+}
+
+ol,
+ul {
+    list-style: none;
+    text-align: center;
+    padding-inline-start: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+strong {
+    color: #950740;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #f4f4f4;
+    text-align: left;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    display: inline;
+    /* lub display: inline-block; */
+    margin-left: 5px;
+    /* opcjonalnie: aby dodać odstęp między tekstem a linkiem */
 }
