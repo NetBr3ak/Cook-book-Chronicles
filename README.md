@@ -26,4 +26,4 @@ This repository contains a simple HTML recipes website.
 
 ## License 📄
 
-This project is licensed under the [Apache License 2.0](LICENSE).
+This project is licensed under the [MIT license](LICENSE).
