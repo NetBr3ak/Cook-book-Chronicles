@@ -20,7 +20,7 @@ This repository contains a simple HTML recipes website.
 
 ## Usage 🚀
 
-1. Clone the repository: `https://github.com/T3aC0d3/recipes.git`
+1. Clone the repository: `https://github.com/NetBr3ak/recipes.git`
 2. Navigate to the project directory.
 3. Open `index.html` in your preferred web browser.
 
