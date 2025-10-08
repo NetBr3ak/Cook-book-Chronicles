@@ -1,6 +1,7 @@
 :root {
     --main-bg-color: #1a1a1d;
     --accent-color: #950740;
+    --hover-accent: #b8094d;
 }
 
 body {
@@ -14,12 +15,14 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 p {
     width: 90%;
     margin: 0 auto;
     padding: 10px 0;
+    font-size: 16px;
 }
 
 h1,
@@ -27,8 +30,8 @@ h2 {
     font-size: 36px;
     margin-top: 0;
     margin-bottom: 20px;
-    /* dodane dla lepszego wygladu */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.5px;
 }
 
 a {
@@ -47,10 +50,10 @@ a {
 }
 
 a:hover {
-    background-color: var(--accent-color);
-    /* smooth transition when hovering */
+    background-color: var(--hover-accent);
     transform: scale(1.05);
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .container {
@@ -66,16 +69,25 @@ a:hover {
     .container {
         max-width: 100%;
     }
+
+    h1,
+    h2 {
+        font-size: 28px;
+    }
+
+    .border-red {
+        padding: 15px;
+    }
 }
 
 .border-red {
     border: 2px solid var(--accent-color);
     border-radius: 10px;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 25px;
     margin-bottom: 20px;
     box-shadow: 0 4px 6px rgba(149, 7, 64, 0.3);
-    /* added shadow for better look */
+    background: rgba(26, 26, 29, 0.5);
 }
 
 img {
@@ -84,6 +96,11 @@ img {
     border-radius: 10px;
     max-width: 100%;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.02);
 }
 
 ol,
@@ -92,6 +109,7 @@ ul {
     text-align: center;
     padding-inline-start: 0;
     margin: 0;
+    line-height: 1.8;
 }
 
 li {
@@ -101,6 +119,7 @@ li {
 
 strong {
     color: var(--accent-color);
+    font-weight: 600;
 }
 
 footer {
