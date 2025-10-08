@@ -27,6 +27,8 @@ h2 {
     font-size: 36px;
     margin-top: 0;
     margin-bottom: 20px;
+    /* dodane dla lepszego wygladu */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 a {
@@ -46,6 +48,9 @@ a {
 
 a:hover {
     background-color: var(--accent-color);
+    /* smooth transition when hovering */
+    transform: scale(1.05);
+    transition: all 0.3s ease;
 }
 
 .container {
@@ -69,6 +74,8 @@ a:hover {
     box-sizing: border-box;
     padding: 20px;
     margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(149, 7, 64, 0.3);
+    /* added shadow for better look */
 }
 
 img {
@@ -76,6 +83,7 @@ img {
     margin: 0 auto 20px;
     border-radius: 10px;
     max-width: 100%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
 ol,
