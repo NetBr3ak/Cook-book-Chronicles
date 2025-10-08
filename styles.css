@@ -96,6 +96,7 @@ ul {
 
 li {
     margin: 10px 0;
+    padding: 5px;
 }
 
 strong {
@@ -107,6 +108,7 @@ footer {
     padding: 20px 0;
     width: 100%;
     align-self: flex-end;
+    font-size: 14px;
 }
 
 .index-page footer {
