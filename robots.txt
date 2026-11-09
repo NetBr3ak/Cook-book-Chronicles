@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://netbr3ak.github.io/Cook-book-Chronicles/sitemap.xml
